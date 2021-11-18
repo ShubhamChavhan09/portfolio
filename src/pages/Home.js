@@ -3,8 +3,6 @@ import styled from "styled-components";
 import Profile from "../assets/shubham01.jpg";
 import ButtonContainer from "../components/ButtonContainer";
 import Socials from "../components/Socials";
-import Skills from "./Skills";
-import About from "./About";
 
 const Home = () => {
   return (
@@ -22,8 +20,6 @@ const Home = () => {
       </Container>
       <ButtonContainer />
       <Socials />
-      <About />
-      <Skills />
     </>
   );
 };
@@ -34,19 +30,33 @@ const Container = styled.div`
   width: 100%;
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 700px) {
+    flex-direction: column-reverse;
+  }
 `;
 
 const Hero = styled.div`
   width: 100%;
   padding-right: 60px;
+
   h1 {
     font-size: 3rem;
     margin: 0;
+
+    @media (max-width: 700px) {
+      font-size: 2rem;
+      padding-right: 0px;
+    }
   }
 
   p {
     font-size: 1.05rem;
     margin: 0 0 30px 0;
+  }
+
+  @media (max-width: 700px) {
+    padding: 0px;
   }
 `;
 
@@ -58,4 +68,10 @@ const Img = styled.img`
 
   border-radius: 50%;
   margin: 0 auto;
+
+  @media (max-width: 700px) {
+    margin: 0;
+    width: 130px;
+    height: 130px;
+  }
 `;
