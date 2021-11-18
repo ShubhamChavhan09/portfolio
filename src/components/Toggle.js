@@ -1,10 +1,11 @@
 import React from "react";
-import { FaRegSun, FaRegMoon } from "react-icons/fa";
+import { FaMoon } from "react-icons/fa";
+import { BsSunFill } from "react-icons/bs";
 
 const Toggle = ({ theme, toggleTheme }) => {
   return (
     <div className="toggle" onClick={toggleTheme}>
-      {theme === "dark" ? <FaRegSun /> : <FaRegMoon />}
+      {theme === "dark" ? <BsSunFill /> : <FaMoon />}
     </div>
   );
 };
