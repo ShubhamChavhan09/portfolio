@@ -1,16 +1,20 @@
 import React from "react";
 import styled from "styled-components";
-import { projectdetails } from "../data/projects";
+import { projectData } from "../data/projects";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
     <div>
-      {projectdetails.map((project) => (
+      {projectData.map((project) => (
         <Wrapper key={project.id}>
           <img src={project.thumb} alt="" />
-          <Overlay className="overlay">
-            <h1>{project.title}</h1>
-          </Overlay>
+
+          <Link to={`/projects/${project.id}`}>
+            <Overlay className="overlay">
+              <h1> {project.title}</h1>
+            </Overlay>
+          </Link>
         </Wrapper>
       ))}
     </div>
