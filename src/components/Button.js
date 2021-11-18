@@ -9,4 +9,5 @@ export const Button = styled.a`
   font-size: 1rem;
   color: currentColor;
   text-decoration: none;
+  font-weight: 300;
 `;
