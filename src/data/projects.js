@@ -4,29 +4,29 @@ import fq from "./images/fq.jpg";
 import GitUser from "./images/GitUser.jpg";
 import Breaking from "./images/breakingbad.jpg";
 
-export const projectdetails = [
+export const projectData = [
   {
-    id: 1,
+    id: 0,
     title: "Meal Recipe",
     thumb: CookBook,
   },
   {
-    id: 2,
+    id: 1,
     title: "Github username search",
     thumb: GitUser,
   },
   {
-    id: 3,
+    id: 2,
     title: "Breaking Bad",
     thumb: Breaking,
   },
   {
-    id: 4,
+    id: 3,
     title: "Expense Tracker",
     thumb: Expense,
   },
   {
-    id: 5,
+    id: 4,
     title: " Accordion ",
     thumb: fq,
   },
