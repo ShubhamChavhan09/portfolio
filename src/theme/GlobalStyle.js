@@ -28,6 +28,7 @@ body{
     cursor: pointer;
     outline: none;
     border: none;
+    font-size:1.1rem;
 
 }
 .toggle:hover{
