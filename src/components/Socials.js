@@ -1,15 +1,18 @@
 import React from "react";
 import { socials } from "../data/socials";
 import styled from "styled-components";
+import { Tooltip } from "react-tippy";
 
 const Socials = () => {
   return (
     <Wrapper>
       {socials.map((social) => (
         <div key={social.site}>
-          <Link href={social.link} target="_blank" rel="noreferrer">
-            {social.icon}
-          </Link>
+          <Tooltip title={social.site} position="bottom" animation="fade">
+            <Link href={social.link} target="_blank" rel="noreferrer">
+              {social.icon}
+            </Link>
+          </Tooltip>
         </div>
       ))}
     </Wrapper>
