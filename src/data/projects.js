@@ -2,6 +2,7 @@ import CookBook from "./images/CookBook.jpg";
 import Expense from "./images/Expense.jpg";
 import fq from "./images/fq.jpg";
 import GitUser from "./images/GitUser.jpg";
+import Breaking from "./images/breakingbad.jpg";
 
 export const projectdetails = [
   {
@@ -16,11 +17,16 @@ export const projectdetails = [
   },
   {
     id: 3,
+    title: "Breaking Bad",
+    thumb: Breaking,
+  },
+  {
+    id: 4,
     title: "Expense Tracker",
     thumb: Expense,
   },
   {
-    id: 4,
+    id: 5,
     title: " Accordion ",
     thumb: fq,
   },
