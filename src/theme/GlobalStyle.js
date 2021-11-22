@@ -7,18 +7,40 @@ const GlobalStyle = createGlobalStyle`
 
 body{
     margin: 0;
-    padding: 0;
-    font-family: 'Oswald', sans-serif;
+    padding: 1rem;
+    
     color: ${({ theme }) => theme.text};
     background: ${({ theme }) => theme.body};
     transition: all 0.5s linear;
-    max-width: 52%;
+    // font-family: 'Inter', sans-serif;
+    // font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
+
+    max-width: 47rem;
     margin: 0 auto;
     height: 100vh;
     width: 100vw;
-    letter-spacing: 0.2px;
-    word-spacing: 1px;
+    // letter-spacing: 0.2px;
+    // word-spacing: 1px;
+
+    @media (max-width: 414px) {
+      max-width: 85%;
+      // padding: 20px;
+    }
+    @media (max-width: 1024px) {
+      max-width: 30rem;
+    }
+  
     
+    // h1, h2, h3, h4{
+    //   font-family: 'Oswald', sans-serif;
+    // }
+
+    p{
+      font-family: 'Roboto', sans-serif;
+      // font-family: 'Inter', sans-serif;
+
+    }
 }
 
 .toggle{
