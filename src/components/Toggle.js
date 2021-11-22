@@ -17,6 +17,6 @@ const Div = styled.div`
   font-size: 1.1rem;
 
   @media (max-width: 414px) {
-    font-size: 0.8rem;
+    font-size: 0.71rem;
   }
 `;
