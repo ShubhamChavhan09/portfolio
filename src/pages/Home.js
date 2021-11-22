@@ -31,7 +31,7 @@ const Container = styled.div`
   display: flex;
   justify-content: space-between;
 
-  @media (max-width: 700px) {
+  @media (max-width: 414px) {
     flex-direction: column-reverse;
   }
 `;
@@ -44,18 +44,22 @@ const Hero = styled.div`
     font-size: 3rem;
     margin: 0;
 
-    @media (max-width: 700px) {
+    @media (max-width: 414px) {
       font-size: 2rem;
       padding-right: 0px;
     }
   }
 
   p {
-    font-size: 1.05rem;
+    font-size: 1rem;
     margin: 0 0 30px 0;
+
+    @media (max-width: 414px) {
+      font-size: 0.9rem;
+    }
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 414px) {
     padding: 0px;
   }
 `;
@@ -69,7 +73,7 @@ const Img = styled.img`
   border-radius: 50%;
   margin: 0 auto;
 
-  @media (max-width: 700px) {
+  @media (max-width: 414px) {
     margin: 0;
     width: 130px;
     height: 130px;

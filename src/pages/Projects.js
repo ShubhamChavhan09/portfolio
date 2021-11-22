@@ -37,7 +37,12 @@ const Wrapper = styled.div`
 
   img {
     object-fit: cover;
-    width: 120%;
+    width: 2000%;
+  }
+
+  @media (max-width: 700px) {
+    height: 120px;
+    margin: 20px 0;
   }
 `;
 

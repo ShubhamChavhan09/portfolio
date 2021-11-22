@@ -64,5 +64,9 @@ const Text = styled.p`
   margin-bottom: 30px;
   max-width: 100%; 
   color: #888888;
+  font-size: 1rem;
+  @media (max-width: 414px) {
+    font-size: 0.82rem;
+  }
   }
 `;

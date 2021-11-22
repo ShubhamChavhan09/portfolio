@@ -58,4 +58,8 @@ const Items = styled(NavLink)`
   transition: all 0.5s ease-in-out;
   font-size: 1rem;
   font-weight: 400;
+
+  @media (max-width: 414px) {
+    font-size: 0.9rem;
+  }
 `;

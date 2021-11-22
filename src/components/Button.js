@@ -10,4 +10,8 @@ export const Button = styled.a`
   color: currentColor;
   text-decoration: none;
   font-weight: 300;
+
+  @media (max-width: 414px) {
+    font-size: 0.9rem;
+  }
 `;

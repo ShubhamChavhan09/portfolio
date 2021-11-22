@@ -35,4 +35,7 @@ const Link = styled.a`
     color: currentColor;
     transition: all 0.5s ease;
   }
+  @media (max-width: 414px) {
+    font-size: 1.5rem;
+  }
 `;
