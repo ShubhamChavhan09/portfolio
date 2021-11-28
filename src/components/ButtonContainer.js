@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Button } from "./Button";
+import Resume from "../assets/Shubham_Chavhan-resume.pdf";
 
 const ButtonContainer = () => {
   return (
@@ -8,7 +9,9 @@ const ButtonContainer = () => {
       <Button href="mailto:shubh.chavhan99@gmail.com" className="toggle">
         shubh.chavhan99@gmail.com
       </Button>
-      <Button className="toggle">Resume</Button>
+      <Button href={Resume} target="_blank" rel="noreferrer" className="toggle">
+        Resume
+      </Button>
     </Wrapper>
   );
 };
