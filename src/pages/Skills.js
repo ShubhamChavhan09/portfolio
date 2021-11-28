@@ -30,7 +30,7 @@ const Wrapper = styled.div`
 const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
+  gap: 2rem;
   margin-top: 2rem;
   @media (max-width: 414px) {
     grid-template-columns: repeat(3, 1fr);
