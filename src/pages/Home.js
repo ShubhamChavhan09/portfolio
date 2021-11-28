@@ -12,7 +12,8 @@ const Home = () => {
           <h1>Shubham Chavhan</h1>
           <p style={{ fontWeight: "500" }}>Front End Developer</p>
           <p className="paragraph">
-            My expertise is in the area of responsive design. With every line of
+            Self-taught developer with experience in Customer Service. My
+            expertise is in the area of responsive design. With every line of
             code, I strive to make the web a beautiful place.
           </p>
         </Hero>
@@ -53,6 +54,7 @@ const Hero = styled.div`
   p {
     font-size: 1rem;
     margin: 0 0 30px 0;
+    line-height: 1.5;
 
     @media (max-width: 414px) {
       font-size: 0.9rem;

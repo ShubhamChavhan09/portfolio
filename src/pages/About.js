@@ -19,9 +19,8 @@ const About = () => {
           <Text className="paragraph">
             I take great pride in my work, and I always try to better myself
             with every project I work on. Aside from my job, I like to create
-            and contribute to open source projects that help me to learn a ton
-            of new stuff, grow as a developer and support other open source
-            projects.
+            projects that help me to learn a ton of new stuff, grow as a
+            developer.
           </Text>
           <Text className="paragraph">
             The main areas of my expertise are React, HTML(5), CSS(3) and
