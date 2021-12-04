@@ -22,7 +22,7 @@ export const projectData = [
     title: "Breaking Bad Character",
     detail:
       "Shows every character from Breaking Bad with their personal details with ability to search by name.",
-    tech: ["React", "Styled-Components"],
+    tech: ["React", "The Breaking Bad API", "Styled-Components"],
     github: "https://github.com/ShubhamChavhan09/breaking-bad-characters",
     appLink: "https://breakingbad-character-cards.netlify.app/",
   },
