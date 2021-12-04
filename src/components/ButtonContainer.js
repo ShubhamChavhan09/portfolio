@@ -7,7 +7,7 @@ const ButtonContainer = () => {
   return (
     <Wrapper>
       <Button href="mailto:shubh.chavhan99@gmail.com" className="toggle">
-        shubh.chavhan99@gmail.com
+        Email me
       </Button>
       <Button href={Resume} target="_blank" rel="noreferrer" className="toggle">
         Resume
