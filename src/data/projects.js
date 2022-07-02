@@ -1,21 +1,29 @@
 export const projectData = [
   {
     id: 0,
+    title: "Money Lover",
+    detail:
+      "App that manages assets with a spending tracker and budget planner and  records personal and business financial transactions, generates spending reports, reviews weekly and monthly financial data. ",
+    tech: [
+      "React",
+      "React Router",
+      "Styled-Components",
+      "React Icons",
+      "Chart js",
+      "date-fns",
+      "Framer Motion",
+    ],
+    github: "https://github.com/ShubhamChavhan09/money-lover",
+    appLink: "https://budget-app-shubhamchavhan09.vercel.app/",
+  },
+  {
+    id: 1,
     title: "Cook Book",
     detail:
       "Provide recipes to the users based on food names, categories available with the API set recipes as favourites.",
     tech: ["React", "MealDB API", "Styled-Components", "React-Router"],
     github: "https://github.com/ShubhamChavhan09/meal-recipes-react",
     appLink: "https://meal-recipes.netlify.app/",
-  },
-  {
-    id: 1,
-    title: "Github users",
-    detail:
-      "This is a solution to the GitHub user search app challenge on Frontend Mentor, which helps to search users and view their profiles on Github.",
-    tech: ["React", "Github API", "Styled-Components", "React-Router"],
-    github: "https://github.com/ShubhamChavhan09/github-user-search-app",
-    appLink: "https://reactjs-github-user-search.netlify.app/",
   },
   {
     id: 2,
@@ -28,11 +36,11 @@ export const projectData = [
   },
   {
     id: 3,
-    title: "Expense Tracker",
+    title: "Github users",
     detail:
-      "A monthly expense tracker app automates the process of recording transactions, totaling expenses by category and tracking progress toward goals. ",
-    tech: ["React"],
-    github: "https://github.com/ShubhamChavhan09/expense-tracker",
-    appLink: "https://react-js-expense-tracker.netlify.app/",
+      "This is a solution to the GitHub user search app challenge on Frontend Mentor, which helps to search users and view their profiles on Github.",
+    tech: ["React", "Github API", "Styled-Components", "React-Router"],
+    github: "https://github.com/ShubhamChavhan09/github-user-search-app",
+    appLink: "https://reactjs-github-user-search.netlify.app/",
   },
 ];
