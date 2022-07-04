@@ -8,6 +8,7 @@ export const projectData = [
       "React",
       "React Router",
       "Styled-Components",
+      "Supabase",
       "React Icons",
       "Chart js",
       "date-fns",
