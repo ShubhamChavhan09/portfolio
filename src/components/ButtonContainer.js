@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Button } from "./Button";
-import Resume from "../assets/Shubham_Chavhan_Resume.pdf";
+import Resume from "../assets/Shubham_Chavhan_Frontend_Developer.pdf";
 
 const ButtonContainer = () => {
   return (
