@@ -17,7 +17,7 @@ const Home = () => {
             code, I strive to make the web a beautiful place.
           </p>
         </Hero>
-        <Img src={Profile} alt="Avatar" />
+        <ProfileImage src={Profile} alt="Avatar" />
       </Container>
       <ButtonContainer />
       <Socials />
@@ -47,7 +47,7 @@ const Hero = styled.div`
 
     @media (max-width: 414px) {
       font-size: 2rem;
-      padding-right: 0px;
+      padding-right: 0;
     }
   }
 
@@ -62,16 +62,14 @@ const Hero = styled.div`
   }
 
   @media (max-width: 414px) {
-    padding: 0px;
+    padding: 0;
   }
 `;
 
-const Img = styled.img`
+const ProfileImage = styled.img`
   width: 175px;
   height: 175px;
-
   padding: 20px;
-
   border-radius: 50%;
   margin: 0 auto;
 
