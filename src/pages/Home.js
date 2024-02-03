@@ -12,9 +12,12 @@ const Home = () => {
           <h1>Shubham Chavhan</h1>
           <p style={{ fontWeight: "500" }}>Front End Developer</p>
           <p className="paragraph">
-            Self-taught developer with experience in Customer Service. My
-            expertise is in the area of responsive design. With every line of
-            code, I strive to make the web a beautiful place.
+            Dedicated to crafting seamless and visually captivating user
+            experiences, I specialize in front-end development with expertise in
+            JavaScript, React, HTML and CSS. I thrive on turning design concepts
+            into interactive and responsive websites. Detail-oriented and
+            committed to excellence, I constantly seek ways to enhance my skills
+            and stay at the forefront of web development trends.
           </p>
         </Hero>
         <ProfileImage src={Profile} alt="Avatar" />
