@@ -60,6 +60,12 @@ const Card = styled.div`
   border-radius: 15px;
   margin: 1rem 0;
   padding: 1rem;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
 
   p {
     font-weight: 300;

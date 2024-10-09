@@ -12,22 +12,16 @@ body{
     color: ${({ theme }) => theme.text};
     background: ${({ theme }) => theme.body};
     transition: all 0.5s linear;
-    // font-family: 'Inter', sans-serif;
-    // font-family: 'Roboto', sans-serif;
     font-family: 'Oswald', sans-serif;
     max-width: 47rem;
     margin: 0 auto;
 
     @media (max-width: 414px) {
       max-width: 85%;
-      // padding: 20px;
     }
     @media (max-width: 1024px) {
       max-width: 30rem;
     }
-  
-    
-
 
     p{
       font-family: 'Roboto', sans-serif;
@@ -74,7 +68,7 @@ export const lightTheme = {
 };
 
 export const darkTheme = {
-  body: "#111111",
+  body: "#1a1a1a",
   text: "#FFFFFF",
   toggle: "#444444",
   hover: "#222222",

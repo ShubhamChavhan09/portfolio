@@ -12,7 +12,6 @@ const Skills = () => {
           <TechWrapper key={tech.id}>
             <Tooltip title={tech.name} position="bottom" animation="fade">
               <Icon>{tech.icon}</Icon>
-              {/* <Text className="paragraph">{tech.name}</Text>  */}
             </Tooltip>
           </TechWrapper>
         ))}
@@ -43,11 +42,19 @@ const TechWrapper = styled.div`
   align-items: center;
   border-radius: 8px;
   margin-right: 14rem;
+  transition: all 0.3s ease;
+  aspect-ratio: 1 / 1;
+
   @media (max-width: 1024px) {
     margin-right: 6rem;
   }
   @media (max-width: 414px) {
     margin-right: 1rem;
+  }
+
+  &:hover {
+    transform: translateY(-5px);
+    background: #2a2a2a;
   }
 `;
 
