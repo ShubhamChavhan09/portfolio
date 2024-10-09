@@ -43,7 +43,6 @@ const TechWrapper = styled.div`
   border-radius: 8px;
   margin-right: 14rem;
   transition: all 0.3s ease;
-  aspect-ratio: 1 / 1;
 
   @media (max-width: 1024px) {
     margin-right: 6rem;
@@ -54,7 +53,6 @@ const TechWrapper = styled.div`
 
   &:hover {
     transform: translateY(-5px);
-    background: #2a2a2a;
   }
 `;
 
