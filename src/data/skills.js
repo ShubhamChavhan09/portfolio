@@ -1,10 +1,4 @@
-import {
-  FaReact,
-  FaPython,
-  FaHtml5,
-  FaCss3Alt,
-  FaGitAlt,
-} from "react-icons/fa";
+import { FaReact, FaHtml5, FaCss3Alt, FaGitAlt } from "react-icons/fa";
 
 import {
   SiStyledcomponents,
