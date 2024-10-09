@@ -6,7 +6,13 @@ import {
   FaGitAlt,
 } from "react-icons/fa";
 
-import { SiStyledcomponents, SiJavascript } from "react-icons/si";
+import {
+  SiStyledcomponents,
+  SiJavascript,
+  SiTypescript,
+  SiGraphql,
+  SiJest,
+} from "react-icons/si";
 
 export const techSkills = [
   {
@@ -21,27 +27,38 @@ export const techSkills = [
   },
   {
     id: 3,
-    name: "Git",
-    icon: <FaGitAlt />,
+    name: "Typescript",
+    icon: <SiTypescript />,
   },
   {
     id: 4,
-    name: "Styled Components",
-    icon: <SiStyledcomponents />,
-  },
-  {
-    id: 5,
     name: "HTML5",
     icon: <FaHtml5 />,
   },
   {
-    id: 6,
+    id: 5,
     name: "CSS3",
     icon: <FaCss3Alt />,
   },
   {
+    id: 6,
+    name: "Git",
+    icon: <FaGitAlt />,
+  },
+  {
     id: 7,
-    name: "Python ",
-    icon: <FaPython />,
+    name: "Jest",
+    icon: <SiJest />,
+  },
+  {
+    id: 8,
+    name: "Graphql",
+    icon: <SiGraphql />,
+  },
+
+  {
+    id: 9,
+    name: "Styled Components",
+    icon: <SiStyledcomponents />,
   },
 ];
